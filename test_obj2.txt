@@ -1,0 +1,48 @@
+1. What is promise in JavaScript? What are the three Promise states in JavaScript? *
+Ans=> Promise is an object and Promise has meaning itself. Promise means making promise with something, if it is fulfilled then you have completed, then you have passed(resolved)  on your promise. And if not, then you haven't completed(rejected) your promise. And the last one is pending stage. Pending stage means work is still going on and it haven't completed yet. So Total there is 3 Promises
+1. Resolved
+2. Rejected and 
+3. Pending
+
+2. What is fetch API in JavaScript? *
+Ans=> The Fetch API  allows to request to get data from server. Fetch API request data throw HTTP or HTTPS. fetch API avoid callback function and use promise to get data in less code. With use of fetch API you can get any data. 
+
+3. What is closures? How do JavaScript closures work. *
+Ans=> A function that has inner(child) function which carry value of their function or their parent function. that called closures. 
+
+4. What is the difference between fetch and promise? *
+Ans=> The Fetch API is a simple interface for fetching resources. Fetch allows us to make network request and handle responses easier than XHR.
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. 
+
+5. What is parallel fetch request? *
+Ans=> Paraller fetch request send multiple  request parallelly. and solve then.
+
+6. How to handle errors in fetch in JavaScript. *
+Ans=> There is many way to handle arrors in JS. but in fetch method we can handle errors using .then and .catch method. If there is no error then it will execute with .then method, and if there is error then it will not execute and show errors and it will catch in .catch method.
+
+7. What is async await in JavaScript? Why we use async and await in Ans=> JavaScript. *
+Async Await is the extension of promises which we get as a support in the language. Async and await come in 2015 in ES6. Its work like promise method. If the code will correct then it will directely execute else it will stop and show error message. 
+
+8. Is async await better than promises?why. *
+Ans=> Yes, its better than Promises. because here you can get output in less code. 
+
+9. What is recursive function in JavaScript? *
+Ans=> Recursion is a process of calling itself. It called inside the function. and once get result it stop itself automatic. 
+
+10. What is axios? What are the advantages of axios. *
+Ans=> Axios is a Javascript library used to make HTTP requests from node. js or XMLHttpRequests from the browser and it supports the Promise API that is native to JS ES6. Most people use axios in React js. axios gives result in less code so many people using axios nowadays.
+
+11. What is material UI? Why you should use material ui. *
+Ans=> Material UI is a component library for React teeming with powerful components. Material UI helps to create good /responsive page in less code with react code.
+
+12. What is the difference between JS and JSX in React? *
+Ans=> JS stands for "JavaScript" and JSX stands for “JavaScript XML,” and it is a syntax extension to JavaScript based in ES6, the newest “version” of JavaScript. JSX allows you to write HTML in React by converting HTML into React components, helping you to more easily create user interfaces for your web applications. 
+
+13. What is the purpose of react and reactDOM library? *
+Ans=> React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser. Include these two libraries before your main JavaScript file. While learning How React works, we'll build a small application using react and ReactDOM.
+
+14. Why do we use react over other HTML, CSS, JS static web pages? *
+Ans=> We use react because react is a virtual Dom. its a single page website and it take less time to load the website. Nowadays no one like to wait if they are blousing anything. and react fill that gap. react page gives data within a second. and That is why industrys are using react nowadays.
+
+15. What is .then() method in JavaScript? *
+Ans=> The then() method in JavaScript has been defined in the Promise API and is used to deal with asynchronous tasks such as an API call. before that callback functions were used instead of this function which made the code difficult to maintain.

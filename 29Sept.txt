@@ -1,0 +1,27 @@
+CONTEXT FEATURE of REACT
+hicarchy
+Properties statement
+data flow
+
+react readux and context- (its not part of react but we use it in react.) State Management
+
+in a compnany HR is a redux.
+
+Changing state -- every Components
+function hook
+	Functional components
+	Class components
+
+redux store
+context
+theme provider can provide information to root.
+Consumer-- 
+render
+palette is an object of color.
+To use palet- theme.object.color
+interface--- reead later
+Nesting - 2 box can access to eatch other
+spred operator- rest operator para has ... dots
+
+
+

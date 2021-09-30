@@ -1,0 +1,50 @@
+1. Explain call stack in JavaScript? *
+ANS: A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions. Its work like LIFO- last-in First Out. so whatever we put function, the first function execute first.
+
+2. What is the main difference between synchronous and Asynchronous JavaScript? *
+ANS: JavaScript is a synchronous language. Synchronous executes script line by line.  each statement waits for the previous statement to finish before executing. but in Asynchronous is completely opposite from synchronous.
+
+3. What is the default value of a variable in JavaScript? *
+ANS: The default value of variable is Undefined.
+
+4. What do you mean by Event Loop? *
+ANS: JavaScript has a concurrency model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. 
+Difference between execution phase and creation phase. *
+
+when a script execute for the first time, the JavaScript engine creates global execution context. during a creation phase it follows the create global object window in web browser, setup a memory heap for storing a variables and function reference, store a function declaration in the memory heap and variables within a global context and initialization  values as "Undefined".
+
+During the execution phase, the JavaScript engine execute the code line by line. it assign the value to the variables and execute the function. And for every function call, The JavaScript engine create a new function execution context.
+
+5. What is the difference between local scope and global scope of a variable? *
+ANS: JavaScript assign variable the you can declare out side of the function to the Global executions. So these variables are in Global Scope. and whatever we assign the variable inside the function these are in Local Scope. It won't work out side of the function.
+
+6. What is hoisting? *
+ANS: In Hoisting, the JavaScript engine moves the variable declaration to the top of the global variable variable and defined value undefined. JavaScript engine also moves the function declaration to the top of the script. 
+
+7. What is the main difference between let and const? *
+ANS: Let and const has their own benefits. In Let we cannot re-declarer the variable. but we can re-assigned(initialized) it. but in const we cannot re-declared the variable and we cannot re-assigned(initialized) it. whenever we want something which we don't want to change then we use const. 
+
+8. What is the difference between undefined and undeclared variable? *
+ANS: undefined means we have not initialized the value. Ex: var num; (So here we just declared the variable but not given any value.)
+undeclared means we have not declare the value and invoking it. so it is undeclared/not declared.
+
+9. What is the difference between querySelector and querySelectorAll? *
+ANS: querySelector allows to files first Element that one or more selectors. querySelectorAll allows to find all matches that match in CSS selector.
+
+10. What are the advantages and disadvantages of using use strict? *
+ANS: Basically, we use "use strict" for var variable in old version of ECMA. Now mostly industry use es6(Let and Const). But sometime we have to code with Var variable too.
+so advantages of "Use Strict" is-- "use strict" is always recommended in all new js frameworks and ECMA5/6. Its mainly "secure" JavaScript and throw real errors if you write "bad syntax" in your JavaScript. and eval in strict mode does not introduce new variables. 
+Disadvantages:  Strict mode throws more errors and disables some features in an effort to make your code more robust, readable, and accurate.
+
+11. What are the main benefits of using createElement over innerHTML? *
+ANS: Preserves existing references to DOM elements when appending elements. When you append to (or otherwise modify) innerHTML , all the DOM nodes inside that element have to be re-parsed and recreated.
+
+12. What do mean by DOM and BOM? *
+ANS: DOM is a  document object represents the whole html document. When html document is loaded in the browser, it becomes a document object. BOM is a Browser object represents a window in browser. An object of window is created automatically by the browser.
+
+13. Explain virtual DOM. *
+ANS: The Virtual DOM represent an HTML or XML document as hierarchy of nodes. Each markup can be represented by a node of a tree.  So lets say document is a tree and there is HTML, now HTML has 2 twig or u can say Childs. so one is <head> and other is <body> now body have more Childs. like <h1>, or <p> etc. Text is also a child of node in virtual DOM.
+
+14. What is the difference between client-side JavaScript and server-side-JavaScript? *
+ANS: web browsers execute client side scripting. It is use when browsers has all code. Source code used to transfer from web server to user’s computer over internet and run directly on browsers. It is also used for validations and functionality for user events. 
+Server-side is the systems that run on the server, and client-side is the software that runs on a user's web browser. Client-side web development involves interactivity and displaying data, server-side is about working behind the scenes to manage data.

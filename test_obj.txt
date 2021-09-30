@@ -1,0 +1,79 @@
+1. What do you mean by built in function and user defined function? *
+
+ANS: In user defined function JavaScript allows us to define our own functions as per our requirement. In JavaScript, function is defined by using the function keyword followed by the function name and parentheses ( ), to hold params(inputs) if any. 
+Functions that are provided by JavaScript itself as part of the scripting language, are known as built-in functions. JavaScript provides a rich set of the library that has a lot of built-in functions. Some examples of the built-in functions are : alert(), prompt(),  eval() etc.
+
+2. What is an anonymous function in JavaScript? *
+ANS: An anonymous function is a function without a name. An anonymous function is often not accessible after its initial creation. There is no parent name between the function Keyboard. We often use anonymous functions as arguments of other functions. For anonymous function we declare a variable and call the function wherever we want. Ex:
+
+let anon = function() {
+  alert('I am JavaScript');
+}
+anon();
+
+
+3. What is the difference between the regular function() and an arrow function ()=>{}? *
+ANS: There is many difference between regular function() and arrow()=>
+1. regular function can easily construct objects.
+2. Arguments objects are not available in arrow functions, but are available in regular functions.
+1. In arrow() function we don't need to write function variable.  
+2. Arrow functions  is a new feature introduced in ES6 – enable writing concise functions in JavaScript.
+3.A programmer can get the same result as regular functions by writing a few lines of code using arrow functions writing less code.
+4. Arrow functions does not required Curly brackets{} if only one expression is present.
+
+4. What are parameters and arguments in functions? *
+ANS: So, Parameter and Arguments are same. but the only deference is between them is... we give Parameter while writing the function. and we call Arguments while invoking/calling the function. Ex:
+
+MyMethod( Parameter) { 
+console.log(= "this is my argument")
+}
+
+myClass.MyMethod(Argument);
+
+
+5. How to empty an array in JavaScript? *
+ANS: We can empty an array using Array length property.
+totalArray.length=0;
+
+6. What is .some function in JS? *
+ANS: The arr.some() method checks whether at least one of the elements of the array satisfies the condition checked by the argument method. and its gives value in boolean- true/false.
+What is dense arrays and sparse arrays? *
+A dense array is an array where the elements are all sequential starting at index 0.
+let array = [1, 2, 3, 4, 5]  
+array.length // Returns 5
+SparseArray maps integers to Objects and, unlike a normal array of Objects, its indices can contain gaps.
+SparseArray Removes all key-value mappings from this SparseArray and Creates and returns a copy of this object.
+
+7. What is the key difference between forEach() and map() in JavaScript? *
+ANS: forEach() — executes a provided function once for each array element. The forEach() method receives a function as an argument and executes it once for each Array element. However, instead of returning a new array as the map() method, it returns undefined.
+
+8. map() — creates a new array with the results of calling a provided function on every element in the ANS: calling array. This function is invoked for each Array element and, at the end, the method returns a completely new array filled with the results of the given function call.
+
+9. What is filter method in JavaScript? *
+ANS: Filter method used to find data from the list. Filter method create a new array with all the elements that pass the test implemented by the callback function(). If the callback function returns true then filter returns that new array.
+
+10. What are escape character in JavaScript? *
+ANS: Escape characters has importent role in JavaScript. using escaping charactor you can escape special character, you can give window line break, give tab, remove extra space, and delete first character as well using backslash.
+
+11. How do you find the length of an array and string in JavaScript? *
+ANS: To find the length of array, we can use "string.length" and to find type we can use typeof string.
+
+12. Explain try...catch statement in JavaScript. *
+ANS: We use try and catch method to find an error. If there is No error in code then directly it will execute the code. and if there is an error then JS terminates the code execution and jump to the catch block. and there we can find the error.
+
+13. How do you convert number String to an integer. *
+ANS: We can using  Integer.valueOf() to Convert a String to an Integer.
+
+14. What is strings in JavaScript? Explain any five string method with example. *
+ANS: JavaScript strings is premitive value in JavaScript. We write string in "double quote", 'single quote' and as well as with `backtick` when we have to write more then one line then we use `backtick`. Ex:
+let name= "Dolly"
+let place='Hyd'
+let country= `India`
+let num= "40"
+let boolean= 'true'
+
+These all are string. Even though the number and boolean has also a string. so whatever you write in single quote, double quote or in backtick. it will convert in string in JavaScript.
+
+15. What is the difference between slice and splice in JavaScript? *
+ANS: The slice() method returns selected elements in an array, as a new array. and slice() does not change the original array.
+Splice is a very powerful method that allows to insert, delete, replace elements anywhere. it can be use for beginning, or in ending or it can be use in middle of the array as well.

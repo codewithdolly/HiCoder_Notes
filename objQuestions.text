@@ -1,0 +1,136 @@
+1. Which company developed JavaScript? *
+ANS=> The JavaScript was created by Brendan Eich at Netscape, and then they hand over to ECMA. and after that ECMA keep working on that and launched updated version. ES6 is a updated version of JavaScript.
+
+2. What UTF stands for? What is UTF8 in a web browser? *
+ANS=> UTF stand of UCS Transformation Format. UTF8  is the World Wide Web's most common character encoding. UTF-8 is backward-compatible with ASCII and can represent any standard Unicode character.
+
+3. How would you declare a global value that stores the string 
+"Global"? *
+ANS=> So to declare a global value we use var. because var is a global variable. you can access var data from anywhere. So It will be like var str= "Global".
+
+4. What is ‘this’ keyword in JavaScript? *
+ANS=> This keyword points of particular object. we use this keyword in different scenario. this keyboard beehive directly in GLOBAL context and LOCAL context. So in global context (this===window is true, but if you apply "use strict" then it becomes false) and (this=== undefined is false but if you use "use strict then it will become true. )
+
+4. What is the working of setTimeout function in JavaScript? Is setTimeout reliable to be executed after defined delay? *
+ANS=> A TimeOut function is an asynchronous function. we use setTimeout to construct a periodic event which, for simple tasks, accomplishes its goal. The real problem is when tasks require synchronization.
+
+5. How you can submit a form mentioned on a webpage using JavaScript without user clicking submit? *
+ANS=> We can give ID to form element and  with use of ID we can write JS on this and use .submit(event listener). or lease we can set time out like. once form will filled then submit after 3-5 sec.
+
+6. How to know the operating system client is using using JS? *
+ANS=> Detect the Operating System of User using JavaScript
+Access the navigator. appVersion or navigator. userAgent property.
+Get the index of the OS using indexOf() method.
+If index is other than -1, then it is the OS, that we are looking for.
+
+7. Is showing "Alert" for user form submission a good idea as per 
+modern web experience standards? *
+ANS=> yes, it is good. because nowadays everyone (young or Old people) using computer and mobile. so after submission form giving alert message will satisficed them that finally it has been done.
+
+8. What is delete operator in JS? Write an example. *
+ANS=> The delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned. 
+
+<script> 
+    let emp = { 
+        firstName: "Raj", 
+        lastName: "Kumar", 
+        salary: 40000 
+    } 
+   console.log(delete emp.salary);
+    console.log(emp);
+</script> 
+
+OUTPUT:
+true
+{"firstName":"Raj","lastName":"Kumar"}
+
+9. What is cookies? Why do analytics companies use cookie for? *
+ ANS=> cookies used to take information of the user and show product, ads related to they search for. Its not works. its not only for that particular website but they shows add to other websites as well. Once you accept the cookies they keep tracking with ur mobile or device and show you data OR ads.
+
+10. Why do big companies forcefully show "We use cookie" on first visit of a user on a web application? Why was this regulation implemented? *
+ANS=> Companies show cookies and forcefully to accept the user to accept the cookies. the companies need to get your explicit consent to collect your data. If a cookie can identify you via your device (which most cookies do), then companies need your consent.
+11. What is the unshift method in JavaScript? *
+ANS=> unshift method add index beginning of the array.
+
+12. What is a window.onload method? Where can this be used in a real web application? *
+ANS=> The Window.onload event is fired when the whole page has loaded, including all dependent resources such as stylesheets and images.  window.onload = (event) => {   console.log('page is fully loaded'); };
+
+13. What is the difference between JS and JSX in React? *
+ANS=> JS means javascript, so it is for javascript programming and JSX is to create react components. JSX is mainly used to make the process easier JSX is like HTML syntax used by react. In JSX we use function and inside that function there will be HTML code. so you can build page in less code using JSX.
+
+14. What is event bubbling? How should use stop event bubbling? *
+ANS=> stopPropagation() The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases. It does not, however, prevent any default behaviors from occurring; for instance, clicks on links are still processed.
+
+15. Explain call(), apply() and, bind() methods in JS? *
+ANS=> 
+-Call invokes the function and allows you to pass in arguments one by one. 
+-Apply invokes the function and allows you to pass in arguments as an array.  and we write then in [].
+-Bind returns a new function, allowing you to pass in a this array and any number of arguments.
+
+16. What is passed by value and passed by reference in JS? *
+ANS=> pass by value means anything which we take from object called pass by value. because we are accessing value. 
+pass by reference means changing the value inside the function also change the original value. In JavaScript array and Object follows pass by reference property.
+
+17. What is an Immediately Invoked Function? *
+ANS=> In Immediately Invoked Function we invoke the function inside the function itself. 
+
+18. What is an Immediately Invoked Function? *
+ANS=> In Immediately Invoked Function we invoke the function inside the function itself.
+
+19. What is Constructor? *
+ANS=> A constructor is a function that creates an instance of a class which is typically called an “object”. In JavaScript, a constructor gets called when you declare an object using the new keyword.
+
+20. List the important features of ES6? *
+ANS=> 
+1. arrows.
+2. classes.
+3. enhanced object literals.
+4. template strings.
+5. destructuring.
+6. default + rest + spread.
+7. let + const.
+8. iterators + for..of.
+
+21. What is await and async in ES6? *
+ANS=> async and wait is used to know the expression of promise. if its true then it will show true, if false then its will show error.
+
+22. How does await and async works in ES6? *
+ANS=> An async  function can contain an await expression, that pauses the execution of the function and waits for the passed Promise's resolution. The purpose of async/await is to simplify the behavior of using promises.
+
+23. What is rest syntax? *
+ANS=> The rest parameter syntax allows us to represent an indefinite number of arguments as an array. With the help of a rest parameter a function can be called with any number of arguments.
+
+24. What is TDZ in JavaScript? *
+ANS=> TDZ stands for Temperature Danger Zone. it a ES6 fetcher. TDZ always in curly brase.{} so if you declare anything in TDZ zone it will show undefined. 
+
+25. We change the value of const in an object! *
+ANS=> True
+
+26. What is Mutable vs Unmutable object? *
+ANS=> Mutable is a type of variable that can be changed. In JavaScript, only objects and arrays are mutable, not primitive values.  Ex:
+
+let obj{
+stdName: "Ram",  -(mutable)
+college:{
+clgName: "Gitam College",    -(Immutable)
+}
+
+
+27. What is a spread operator in javascript? *
+ANS=> The spread operator is a new addition to the set of operators in JavaScript ES6. It takes in an inerrable (for an array) and expands it into individual elements. The spread operator is commonly used to make shallow copies of JS objects. 
+
+28. What is difference between fetch() and XMLHttpRequest() in JavaScript? *
+ANS=> The main difference between Fetch and XMLHttpRequest is that the Fetch API uses Promises, hence avoiding callback hell.
+
+29. What is short hand method in ES6? *
+ANS=> Short hand method short the code and give output in less code.
+const obj = {
+  foo() {
+    return 'bar';
+  }
+};
+
+console.log(obj.foo());   //output: "bar"
+
+30. What is an Immediately Invoked Function in javascript? *
+ANS=> In Immediately Invoked Function we invoke the function inside the function itself. 
