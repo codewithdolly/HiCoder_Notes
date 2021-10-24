@@ -3,4 +3,4 @@
 //then Asynchronous came in picture: Asynchronous is opposite of synchronous. means multiple things happne at the same time. Where we work like "call stack" function.
 
 
-- Blocking Function: The Function who tajes longer time to execute. that called Blocking function. 
+- Blocking Function: The Function who takes longer time to execute. that called Blocking function. 
