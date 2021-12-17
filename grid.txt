@@ -1,0 +1,59 @@
+display: grid;
+grid-template-column: (70% 30%) OR (1fr, 2fr, 1fr) fr- fractions
+if you dont want to repeat then you can write
+grid-template-column:repeat(3, 1fr);
+if you want multiple then you can write 
+grid-template-column:repeat(3, 1fr 2fr);
+
+
+grid-gap- 1em
+grid column
+grid row
+aline-self end
+
+grid-auto-rows: 5rem;-- it will take 5rem height.
+
+
+now if you want to keed min width then 
+grid-auto-rows: minmax(5rem, auto);- so it will stay at 100 and if there is more content than 5rem then it will incresed.
+
+dataypes
+program flow-(Loops)
+operators
+srings
+varies string(concat, and split, slice)
+objects
+prototypes
+regular expreaction.
+
+What is DOM- Document object module. -- Dom add user intracitivity. Its create a tree structure. and javascript intract with DOM derectely and manupulate things.
+What is BOM- Browser object module. Its kind of API interface. 
+javascript engine:- JavaScript engine compile the code in the browser.
+
+is there any other technology we use apart from js? -- thre is C, c++, java, Django, python etc.
+
+diffrence between HTML and CSS--  HTML is used to create website structure and CSS is used to style the web-page.
+
+We cannot create webpage without HTML. whatever we use  react, django or any other language, at the end it has to convirt into HTML.
+
+Computer understand machine language so whatever we do it convirt it into binarry and then it check and return the value.
+
+Every browser has their own engin. its like transpiler and compiler. so whatever we code it convirt there and  runs to their engine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
